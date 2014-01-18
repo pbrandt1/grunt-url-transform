@@ -1,5 +1,7 @@
 # grunt-url-transform
 
+SUCH NOT READY FOR YOU TO USE.  VERY BETA.  WOW.
+
 > Replaces src="/script.js" with src="https://localhost:4343/script.js" for instance.  This module was created to deal with google hangout app resource loading.
 
 

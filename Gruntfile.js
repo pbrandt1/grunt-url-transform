@@ -43,7 +43,7 @@ module.exports = function(grunt) {
         }
       },
       files: [
-        'tmp/test/fixtures/index.html'
+        'tmp/test/fixtures/*'
       ]
     },
 
