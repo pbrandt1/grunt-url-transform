@@ -1,0 +1,43 @@
+{
+  "name": "grunt-url-transform",
+  "description": "Replaces src=\"/script.js\" with src=\"https://localhost:4343/script.js\" for instance.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pbrandt1/grunt-url-transform",
+  "author": {
+    "name": "Peter Brandt",
+    "email": "peter.m.brandt@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pbrandt1/grunt-url-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pbrandt1/grunt-url-transform/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pbrandt1/grunt-url-transform/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
