@@ -1,6 +1,6 @@
 {
   "name": "grunt-url-transform",
-  "description": "Replaces src=\"/script.js\" with src=\"https://localhost:4343/script.js\" for instance.",
+  "description": "[SUPER LAMESAUCE, DON'T USE (yet)] Replaces src=\"/script.js\" with src=\"https://localhost:4343/script.js\" for instance.",
   "version": "0.1.0",
   "homepage": "https://github.com/pbrandt1/grunt-url-transform",
   "author": {

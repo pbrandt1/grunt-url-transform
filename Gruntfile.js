@@ -37,14 +37,26 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     url_transform: {
-      options: {
-        default: {
-          url: 'https://localhost:4343'
-        }
+      app: {
+        options: {
+          default: {
+            url: 'https://localhost:4343'
+          }
+        },
+        files: [
+          'tmp/test/fixtures/*.html'
+        ]
       },
-      files: [
-        'tmp/test/fixtures/*'
-      ]
+      dist: {
+        options: {
+          default: {
+            url: 'https://localhost:4343'
+          }
+        },
+        files: [
+          'tmp/test/fixtures/*.html'
+        ]
+      }
     },
 
     // Unit tests.

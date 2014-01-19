@@ -46,6 +46,9 @@ module.exports = function(grunt) {
         regexs.forEach(function(r) {
           source = source.replace(r, function(match, p1) {
             var slash = p1[0] === '/' ? '' : '/';
+            if (p1.indexOf('//') >= 0) {
+              return match;
+            }
             return match.replace(p1, options.default.url + slash + p1);
           });
         });
